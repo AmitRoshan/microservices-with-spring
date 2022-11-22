@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+          search-paths:
+            - licensing,organization
+          username:
+          password:
+      label:
